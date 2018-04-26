@@ -15,5 +15,5 @@ if($res != false){
 		header('Location: '.$base_url.'index.php');
 	}
 }
-echo "teste";
+header('Location: '.$base_url.'aviso.php');
 ?>
